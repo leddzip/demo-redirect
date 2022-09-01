@@ -1,0 +1,7 @@
+{
+  "ignoreUnusedModels": false,
+  "modelSuffix": "DTO",
+  "modelIndex": false,
+  "serviceIndex": false,
+  "indexFile": false
+}

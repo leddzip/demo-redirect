@@ -1,0 +1,19 @@
+openapi: "3.0.0"
+info:
+  version: 1.0.0
+  title: Swagger redirect demo
+paths:
+  /redirect:
+    get:
+      summary: A dummy endpoint to redirect using location
+      operationId: redirect
+      tags:
+        - main
+      responses:
+        '301':
+          description: a redirect using location in the header
+          headers:
+            location:
+              description: a link to the page to redirect to
+              schema:
+                type: string

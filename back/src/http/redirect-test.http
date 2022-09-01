@@ -1,0 +1,9 @@
+# @no-redirect
+GET http://localhost:8080/redirect
+Accept: application/json
+
+###
+GET http://localhost:8080/redirect
+Accept: application/json
+
+###
